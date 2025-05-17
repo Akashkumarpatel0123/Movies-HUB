@@ -1,12 +1,60 @@
-# React + Vite
+# 🎬 Movies-HUB
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movies-HUB is a sleek and responsive React web application built with Vite. Explore **Popular**, **Top Rated**, **Now Playing**, and **Upcoming** movies all in one place.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 Browse movies by categories: Popular, Top Rated, Now Playing, and Upcoming
+- 📽️ Watch trailers with integrated video player
+- 📱 Fully responsive design for mobile and desktop
+- ⚡ Built using Vite + React for blazing fast performance
+- 🎨 Styled with Tailwind CSS
+- 🌐 Fetches real-time movie data via The Movie Database (TMDB) API
+- 🔁 Smooth page transitions and routing using React Router
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshots
+
+> ![Navbar Screenshot](./public/Screenshot%20(273).png)
+
+> ![Homepage Screenshot](./public/Screenshot%20(274).png)
+
+> ![Pagination Screenshot](./public/Screenshot%20(275).png)
+
+> ![Footer Screenshot](./public/Screenshot%20(276).png)
+
+> ![playeroption  Screenshot](./public/Screenshot%20(277).png)
+
+> ![Videoplay Screenshot](./public/Screenshot%20(278).png)
+
+> ![Full screen play Screenshot](./public/Screenshot%20(279).png)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, Vite, Tailwind CSS
+- **Routing**: React Router DOM
+- **API**: TMDB (The Movie Database) API
+- **Icons**: React Icons
+- **Video**: React Player
+
+---
+
+## 🧑‍💻 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Akashkumarpatel0123/Movies-HUB.git
+
+# Navigate into the project
+cd Movies-HUB
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
